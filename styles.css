@@ -176,6 +176,21 @@ article.entry h2#sources+table,article.entry h2#sources~table{font-size:13px}
 .res-group li span{color:var(--ink-soft);font-size:13.5px}
 .vidgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .vidgrid .yt{margin:0}
+/* ---------- sections & navigation ---------- */
+.sechead{grid-column:1/-1;display:flex;align-items:baseline;gap:12px;margin:26px 0 2px;padding:10px 2px 8px;
+border-bottom:2px dotted var(--line);font-family:var(--font-ui)}
+.sechead .dev{color:var(--geru);font-size:16px}
+.sechead h3{margin:0;font-family:var(--font-serif);font-size:21px}
+.sechead a{font-size:13px;font-weight:600;text-decoration:none;margin-left:auto;white-space:nowrap}
+.chips-row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.secchip{font-family:var(--font-ui);font-size:13px;text-decoration:none;color:var(--geru-deep);
+background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:6px 12px;transition:all .15s}
+.secchip:hover{background:var(--geru);color:var(--biswar);border-color:var(--geru)}
+.sec-hero{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:26px 28px;margin:24px 0 8px;position:relative;overflow:hidden}
+.sec-hero::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:var(--geru) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='10'%3E%3Ccircle cx='7' cy='5' r='2' fill='%23FAF4E6' opacity='.9'/%3E%3C/svg%3E") repeat-x center}
+.sec-hero h1{margin:2px 0 2px;font-size:clamp(24px,4vw,34px)}
+.sec-hero .dev{color:var(--geru);font-size:20px}
+.sec-hero p{color:var(--ink-soft);font-family:var(--font-ui);font-size:15px;max-width:46em;margin:10px 0 0}
 /* reveal animation */
 .rv{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
 .rv.in{opacity:1;transform:none}
