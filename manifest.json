@@ -1,0 +1,15 @@
+{
+ "name": "Kumaoni Heritage Archive",
+ "short_name": "Kumaoni",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#FAF4E6",
+ "theme_color": "#9E3A26",
+ "icons": [
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}
