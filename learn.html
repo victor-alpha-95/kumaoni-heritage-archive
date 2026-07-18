@@ -38,7 +38,7 @@ function deckStats(dk){var s=state(),seen=0,due=0;dk.terms.forEach(function(t){v
 function renderList(){var el=document.getElementById('decks');el.innerHTML='';
  var totSeen=0,totAll=0;
  DECKS.forEach(function(dk){var st=deckStats(dk);totSeen+=st.seen;totAll+=st.total;
-  var li=document.createElement('li');li.className='deck rv';
+  var li=document.createElement('li');li.className='deck';
   li.innerHTML='<div class="dk-t"><span class="dev" lang="kfy">'+dk.dev+'</span><h3>'+dk.title+'</h3></div>'+
    '<p class="dk-m">'+st.seen+' / '+st.total+' learnt'+(st.due?' · <strong>'+st.due+' due</strong>':'')+
    ' · <a href="'+dk.url+'">entry</a></p>'+
