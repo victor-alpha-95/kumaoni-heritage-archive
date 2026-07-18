@@ -176,6 +176,32 @@ article.entry h2#sources+table,article.entry h2#sources~table{font-size:13px}
 .res-group li span{color:var(--ink-soft);font-size:13.5px}
 .vidgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .vidgrid .yt{margin:0}
+/* ---------- learn: decks & flashcards ---------- */
+.learn-stats{display:flex;justify-content:space-between;gap:12px;font-family:var(--font-ui);font-size:14px;
+color:var(--ink-soft);border-bottom:2px dotted var(--line);padding-bottom:10px;margin-bottom:14px}
+.decklist{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.deck{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:16px}
+.dk-t .dev{color:var(--geru);font-size:15px}
+.dk-t h3{margin:2px 0 6px;font-size:17px}
+.dk-m{font-family:var(--font-ui);font-size:13px;color:var(--ink-soft);margin:0 0 10px}
+.dk-go{font-family:var(--font-ui);font-size:14px;font-weight:600;background:var(--geru);color:var(--biswar);
+border:0;border-radius:2px;padding:9px 16px;cursor:pointer}
+.dk-go:hover{background:var(--geru-deep)}
+.fcard{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:44px 24px;text-align:center;
+margin:14px 0;min-height:180px;cursor:pointer}
+.f-front{font-size:clamp(30px,6vw,44px);color:var(--ink)}
+.f-roman{font-family:var(--font-ui);font-size:19px;color:var(--geru-deep);margin-top:14px}
+.f-gloss{font-size:17px;margin-top:8px}
+#grades{display:flex;gap:10px;margin-top:12px}
+.gr{flex:1;font-family:var(--font-ui);font-size:14.5px;font-weight:600;border:0;border-radius:2px;
+padding:12px;cursor:pointer;color:var(--biswar)}
+.gr0{background:var(--badge-u)}.gr1{background:var(--haryav)}.gr2{background:var(--haldi);color:var(--ink)}
+.linkish{background:none;border:0;color:var(--geru-deep);font-family:var(--font-ui);font-size:14px;
+cursor:pointer;text-decoration:underline;padding:0;margin-top:14px}
+.pow{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--haldi);border-radius:2px;
+padding:14px 18px;margin:18px 0;font-family:var(--font-ui)}
+.pow .dev{font-size:22px;color:var(--ink)}
+.pow small{color:var(--ink-soft)}
 /* ---------- sections & navigation ---------- */
 .sechead{grid-column:1/-1;display:flex;align-items:baseline;gap:12px;margin:26px 0 2px;padding:10px 2px 8px;
 border-bottom:2px dotted var(--line);font-family:var(--font-ui)}
